@@ -36,7 +36,7 @@ const submitHandler = async request => {
       "First Name": first_name,
       "Last Name": last_name,
       "Email": email,
-      "Phone Number": phone,
+      "Phone number": phone,
       "Subject": subject,
       "Message": message
     }

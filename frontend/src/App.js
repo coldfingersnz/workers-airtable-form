@@ -40,13 +40,10 @@ export default function FormPage() {
           <div className="py-24 lg:py-32">
             <div className="relative z-10 max-w-7xl mx-auto pl-4 pr-8 sm:px-6 lg:px-8">
               <h1 className="text-4xl font-extrabold tracking-tight text-warm-gray-900 sm:text-5xl lg:text-6xl">
-                Workers Airtable Form Example
+                PitchLinks Support Contact Form
               </h1>
               <p className="mt-6 text-xl text-warm-gray-500 max-w-3xl">
-                An example form that uses serverless functions, provided by <ExternalLink href="https://workers.dev">Cloudflare Workers</ExternalLink>, to submit form data to an <ExternalLink href="https://airtable.com">Airtable</ExternalLink> table.{" "}
-                <ExternalLink href={REPO_URL}>
-                  Check out the source to learn more.
-                </ExternalLink>
+                Have a question or an idea to improve our applications, send us a message using the form below. We should get back to you as soon as possible depending on the weather and the workload!
               </p>
             </div>
           </div>
@@ -186,12 +183,7 @@ export default function FormPage() {
                       </defs>
                     </svg>
                   </div>
-                  <h3 className="text-lg font-medium text-white">Example form</h3>
-                  <p className="mt-6 text-base text-teal-50 max-w-3xl">
-                    A fully-featured HTML5 <code>form</code> element that submits data to a serverless function.
-                    This data is added to an <ExternalLink hoverColor="text-teal-300" href="https://airtable.com">Airtable</ExternalLink> table, which can be connected with various integrations and extensions to notify
-                    you on new submissions and changes.
-                  </p>
+                  
                 </div>
 
                 {/* Contact form */}
@@ -211,7 +203,7 @@ export default function FormPage() {
         </h2>
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
           <p className="text-base text-warm-gray-400 xl:text-center">
-            Workers Airtable Form Example is <ExternalLink hoverColor="text-warm-gray-200" href={REPO_URL}>open source on GitHub</ExternalLink>.
+            Powered by some clever serverless tech <ExternalLink hoverColor="text-warm-gray-200" href={REPO_URL}>managed by PitchLinks Ltd</ExternalLink>.
           </p>
         </div>
       </footer>
